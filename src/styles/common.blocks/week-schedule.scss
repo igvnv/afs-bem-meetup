@@ -1,0 +1,26 @@
+@import '../config';
+
+.week-schedule {
+  border-collapse: collapse;
+  width: 100%;
+
+  th {
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    color: $color-gray-30;
+    text-align: left;
+  }
+
+  td {
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 200%;
+    color: $color-gray-75;
+    padding: 4px 12px 4px 0;
+  }
+}

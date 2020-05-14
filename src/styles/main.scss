@@ -3,8 +3,16 @@
 @import url('https://use.typekit.net/ggc6cui.css');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600');
 
+@import './common.blocks/button.scss';
+@import './common.blocks/buttons-group.scss';
+@import './common.blocks/icon.scss';
+@import './common.blocks/content-with-icon.scss';
+@import './common.blocks/sidebar.scss';
+@import './common.blocks/week-schedule.scss';
+
 // Tablet
 @media (max-width: $tablet-width) {
+  @import './tablet.blocks/button.scss';
 }
 // Desktop
 @media (min-width: $tablet-width + 1) {

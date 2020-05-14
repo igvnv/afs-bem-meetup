@@ -1,0 +1,17 @@
+.buttons-group {
+  display: inline-grid;
+  grid-gap: 20px;
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.buttons-group__icon {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: blue;
+  border-radius: 3px;
+}
+
+.buttons-group__button {
+}

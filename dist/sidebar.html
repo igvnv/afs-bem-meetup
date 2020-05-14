@@ -10,5 +10,106 @@
     />
     <title>BEM / Sidebar</title>
   <link href="bundle-styles.css" rel="stylesheet"></head>
-  <body><script type="text/javascript" src="bundle.js"></script></body>
+  <body style="background: gray;">
+    <div
+      class="sidebar"
+      style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 380px"
+    >
+      <div class="sidebar__item">
+        <div class="content-with-icon">
+          <div class="content-with-icon__icon">
+            <span class="icon icon_back"></span>
+          </div>
+          <div class="content-with-icon__content">
+            <h3 class="content-with-icon__title">
+              Redden’s Funeral Home Inc
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar__item">
+        <div class="content-with-icon">
+          <div class="content-with-icon__icon">
+            <span class="icon icon_location"></span>
+          </div>
+          <div class="content-with-icon__content">
+            325 W 14th St, New York, NY 10014
+          </div>
+        </div>
+      </div>
+      <div class="sidebar__item">
+        <div class="content-with-icon">
+          <div class="content-with-icon__icon">
+            <span class="icon icon_phone"></span>
+          </div>
+          <div class="content-with-icon__content">
+            +1 718-708-0000
+          </div>
+        </div>
+      </div>
+      <div class="sidebar__item">
+        <div class="content-with-icon">
+          <div class="content-with-icon__icon">
+            <span class="icon icon_clock"></span>
+          </div>
+          <div class="content-with-icon__content">
+            <table class="week-schedule">
+              <thead>
+                <tr>
+                  <th>Weekday</th>
+                  <th>Opening time</th>
+                  <th>Capacity</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sunday</td>
+                  <td>10AM – 4PM</td>
+                  <td>12</td>
+                </tr>
+                <tr>
+                  <td>Monday</td>
+                  <td>10AM – 4PM</td>
+                  <td>16</td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>10AM – 4PM</td>
+                  <td>16</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>10AM – 4PM</td>
+                  <td>16</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>10AM – 4PM</td>
+                  <td>16</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>10AM – 4PM</td>
+                  <td>16</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>10AM – 4PM</td>
+                  <td>12</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar__item">
+        <span class="button button_block button_color_dark"
+          ><span
+            class="icon icon_location icon_location_white button__icon"
+          ></span>
+          RESERVE STORAGE</span
+        >
+      </div>
+    </div>
+  <script type="text/javascript" src="bundle.js"></script></body>
 </html>
