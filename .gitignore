@@ -1,0 +1,10 @@
+node_modules
+
+# Directory created by dartdoc
+doc/api/
+
+.idea/
+.DS_Store
+
+tmp
+.vscode
